@@ -9,6 +9,8 @@ from your own life, and keeps its data in one encrypted file on your disk.
 [Own VAND for €79 once](https://vand.space/founders) ·
 [How your data stays yours](https://vand.space/security)
 
+[![VAND dashboard showing local demo data](https://vand.space/demo/screenshot-main.png)](https://vand.space/download)
+
 ## What makes it different
 
 - Local AI: your prompts and personal history are processed on your machine.
