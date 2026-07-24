@@ -24,10 +24,22 @@ from your own life, and keeps its data in one encrypted file on your disk.
 The latest Windows x64 installer is on the
 [Releases page](https://github.com/quentinthegoat/vand-releases/releases/latest).
 
-VAND is currently unsigned because the project follows a zero-cost distribution
-path. Windows may show a SmartScreen warning; the
+VAND is currently unsigned; the first sales will fund code signing. Windows may
+show a SmartScreen warning, so the
 [download guide](https://vand.space/download) explains the exact installation
-steps and publishes the release checksum.
+steps and every release publishes its SHA-256 checksum.
+
+For `VAND-0.13.1-x64.exe`, the expected SHA-256 is:
+
+```text
+73151516A9FE307E833FBA557E60D52168A00D2928DEDF5B5DB28203211CDB8E
+```
+
+Verify it in PowerShell before opening the installer:
+
+```powershell
+Get-FileHash .\VAND-0.13.1-x64.exe -Algorithm SHA256
+```
 
 ## About this repository
 
