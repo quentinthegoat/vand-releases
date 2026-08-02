@@ -31,17 +31,25 @@ show a SmartScreen warning, so the
 [download guide](https://vand.space/download) explains the exact installation
 steps and every release publishes its SHA-256 checksum.
 
-For `VAND-0.13.1-x64.exe`, the expected SHA-256 is:
+For `VAND-0.13.2-x64.exe`, the expected SHA-256 is:
 
 ```text
-73151516A9FE307E833FBA557E60D52168A00D2928DEDF5B5DB28203211CDB8E
+D9E37C7C77B6E79E2805E2849445DA1841AE062B4C2FB1AE30727B8AD9DE2862
 ```
 
 Verify it in PowerShell before opening the installer:
 
 ```powershell
-Get-FileHash .\VAND-0.13.1-x64.exe -Algorithm SHA256
+Get-FileHash .\VAND-0.13.2-x64.exe -Algorithm SHA256
 ```
+
+## Help test VAND
+
+VAND is looking for 20 Windows users for a no-purchase, 15-minute product test.
+This is research, not a request for a review or testimonial. Use the app's demo
+profile if you do not want to show personal information.
+
+[See the tester invitation](https://github.com/quentinthegoat/vand-releases/issues/1)
 
 ## About this repository
 
