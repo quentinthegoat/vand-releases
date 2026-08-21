@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+<rect width="880" height="360" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" font-weight="600" fill="#1f2937" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">MRDN debt mix — the revolver is doing the work</text>
+<text x="64" y="45" font-size="11.5" fill="#6b7280" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Scaled to $1.4bn. Term debt falls every year after FY2022; total drawn debt falls far less.</text>
+<line x1="64" y1="314.0" x2="856" y2="314.0" stroke="#e5e7eb"/>
+<text x="56.0" y="317.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">0</text>
+<line x1="64" y1="254.0" x2="856" y2="254.0" stroke="#e5e7eb"/>
+<text x="56.0" y="257.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">350</text>
+<line x1="64" y1="194.0" x2="856" y2="194.0" stroke="#e5e7eb"/>
+<text x="56.0" y="197.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">700</text>
+<line x1="64" y1="134.0" x2="856" y2="134.0" stroke="#e5e7eb"/>
+<text x="56.0" y="137.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">1,050</text>
+<line x1="64" y1="74.0" x2="856" y2="74.0" stroke="#e5e7eb"/>
+<text x="56.0" y="77.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">1,400</text>
+<text x="64.0" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2019</text>
+<text x="222.4" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2020</text>
+<text x="380.8" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2021</text>
+<text x="539.2" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2022</text>
+<text x="697.6" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2023</text>
+<text x="856.0" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2024</text>
+<polygon points="64.0,204.3 222.4,185.4 380.8,200.9 539.2,126.3 697.6,145.1 856.0,169.1 856.0,314.0 697.6,314.0 539.2,314.0 380.8,314.0 222.4,314.0 64.0,314.0" fill="#2f5d8a" opacity="0.88"/>
+<polygon points="64.0,204.3 222.4,185.4 380.8,200.9 539.2,108.6 697.6,104.3 856.0,112.5 856.0,169.1 697.6,145.1 539.2,126.3 380.8,200.9 222.4,185.4 64.0,204.3" fill="#c4622d" opacity="0.88"/>
+<rect x="64" y="340" width="10" height="10" rx="2" fill="#2f5d8a"/>
+<text x="79.0" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Term debt</text>
+<rect x="143.6" y="340" width="10" height="10" rx="2" fill="#c4622d"/>
+<text x="158.6" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Revolver</text>
+</svg>

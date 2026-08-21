@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" role="img">
+<rect width="880" height="380" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" font-weight="600" fill="#1f2937" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">EBIT margin, FY2019–FY2024</text>
+<text x="64" y="45" font-size="11.5" fill="#6b7280" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">The FY2022 input-cost spike hit all three; only Calder absorbed it without losing half its margin.</text>
+<line x1="64" y1="257.6" x2="856" y2="257.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="261.1" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">0%</text>
+<line x1="64" y1="170.7" x2="856" y2="170.7" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="174.2" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">10%</text>
+<line x1="64" y1="83.8" x2="856" y2="83.8" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="87.3" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">20%</text>
+<text x="64.0" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2019</text>
+<text x="222.4" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2020</text>
+<text x="380.8" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2021</text>
+<text x="539.2" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2022</text>
+<text x="697.6" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2023</text>
+<text x="856.0" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2024</text>
+<line x1="64" y1="334" x2="856" y2="334" stroke="#6b7280" stroke-width="1"/>
+<line x1="64" y1="257.6" x2="856" y2="257.6" stroke="#6b7280" stroke-width="1" stroke-dasharray="3 3"/>
+<polyline points="64.0,157.7 222.4,170.6 380.8,142.6 539.2,203.1 697.6,187.3 856.0,166.5" fill="none" stroke="#2f5d8a" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.0,109.0 222.4,119.7 380.8,96.4 539.2,128.7 697.6,113.2 856.0,102.4" fill="none" stroke="#c4622d" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.0,287.3 222.4,305.9 380.8,272.1 539.2,320.6 697.6,301.4 856.0,281.7" fill="none" stroke="#3d7a5d" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="64" y="360" width="10" height="10" rx="2" fill="#2f5d8a"/>
+<text x="79.0" y="369.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">MRDN</text>
+<rect x="111.6" y="360" width="10" height="10" rx="2" fill="#c4622d"/>
+<text x="126.6" y="369.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">CALD</text>
+<rect x="159.2" y="360" width="10" height="10" rx="2" fill="#3d7a5d"/>
+<text x="174.2" y="369.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">VSSL</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+<rect width="880" height="360" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" font-weight="600" fill="#1f2937" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Share of risk minus share of capital</text>
+<text x="64" y="45" font-size="11.5" fill="#6b7280" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Positive means the sleeve consumes more risk budget than capital budget. This is the gap a weights table cannot show you.</text>
+<line x1="64" y1="264.0" x2="856" y2="264.0" stroke="#e5e7eb"/>
+<text x="56.0" y="267.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-20%</text>
+<line x1="64" y1="216.0" x2="856" y2="216.0" stroke="#e5e7eb"/>
+<text x="56.0" y="219.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-10%</text>
+<line x1="64" y1="168.0" x2="856" y2="168.0" stroke="#e5e7eb"/>
+<text x="56.0" y="171.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-0%</text>
+<line x1="64" y1="120.0" x2="856" y2="120.0" stroke="#e5e7eb"/>
+<text x="56.0" y="123.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">+10%</text>
+<line x1="64" y1="71.9" x2="856" y2="71.9" stroke="#e5e7eb"/>
+<text x="56.0" y="75.4" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">+20%</text>
+<rect x="85.5" y="99.1" width="70.1" height="68.9" rx="2" fill="#3d7a5d"/>
+<text x="120.6" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">LCAP</text>
+<text x="120.6" y="93.1" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">+14%</text>
+<rect x="198.6" y="137.7" width="70.1" height="30.3" rx="2" fill="#3d7a5d"/>
+<text x="233.7" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">SCAP</text>
+<text x="233.7" y="131.7" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">+6%</text>
+<rect x="311.8" y="156.1" width="70.1" height="11.9" rx="2" fill="#3d7a5d"/>
+<text x="346.9" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">INTL</text>
+<text x="346.9" y="150.1" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">+2%</text>
+<rect x="424.9" y="155.3" width="70.1" height="12.7" rx="2" fill="#3d7a5d"/>
+<text x="460.0" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">EMKT</text>
+<text x="460.0" y="149.3" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">+3%</text>
+<rect x="538.1" y="168.0" width="70.1" height="110.1" rx="2" fill="#a83232"/>
+<text x="573.1" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">BNDX</text>
+<text x="573.1" y="292.1" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-23%</text>
+<rect x="651.2" y="161.9" width="70.1" height="6.1" rx="2" fill="#3d7a5d"/>
+<text x="686.3" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">REIT</text>
+<text x="686.3" y="155.9" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">+1%</text>
+<rect x="764.4" y="168.0" width="70.1" height="19.8" rx="2" fill="#a83232"/>
+<text x="799.4" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">GOLD</text>
+<text x="799.4" y="201.8" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-4%</text>
+<line x1="64" y1="168.0" x2="856" y2="168.0" stroke="#6b7280"/>
+</svg>

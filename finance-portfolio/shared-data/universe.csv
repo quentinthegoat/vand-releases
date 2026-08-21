@@ -1,0 +1,11 @@
+ticker,description,factor_exposures,annual_expense_ratio
+IDXUS,US Large-Cap Index (not investable),EQ=+1.00,0.0000
+LCAP,Core US Large-Cap ETF,EQ=+1.00,0.0003
+BRDX,Total US Market ETF,EQ=+0.98; SIZE=+0.12,0.0009
+SMRT,US Multifactor 'Smart Beta' ETF,EQ=+0.92; VAL=+0.38; SIZE=+0.22,0.0035
+SCAP,US Small-Cap ETF,EQ=+1.12; SIZE=+0.85,0.0006
+INTL,Developed ex-US Equity ETF,EQ=+0.82; FX=+0.75,0.0007
+EMKT,Emerging Markets Equity ETF,EQ=+0.88; EM=+0.90; FX=+0.35,0.0014
+BNDX,Aggregate Bond ETF,RATE=+1.00; EQ=+0.05,0.0005
+REIT,Listed Real Estate ETF,EQ=+0.85; RATE=+0.55; VAL=+0.25,0.0012
+GOLD,Physical Gold ETC,GLD=+1.00; EQ=-0.05,0.0025

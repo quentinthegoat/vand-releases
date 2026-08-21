@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" role="img">
+<rect width="880" height="380" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" font-weight="600" fill="#1f2937" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Cash conversion cycle (days)</text>
+<text x="64" y="45" font-size="11.5" fill="#6b7280" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">DSO + DIO − DPO. Rising means the business is funding its own growth out of working capital.</text>
+<line x1="64" y1="312.1" x2="856" y2="312.1" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="315.6" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">25</text>
+<line x1="64" y1="252.6" x2="856" y2="252.6" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="256.1" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">50</text>
+<line x1="64" y1="193.1" x2="856" y2="193.1" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="196.6" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">75</text>
+<line x1="64" y1="133.5" x2="856" y2="133.5" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="137.0" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">100</text>
+<line x1="64" y1="74.0" x2="856" y2="74.0" stroke="#e5e7eb" stroke-width="1"/>
+<text x="56.0" y="77.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">125</text>
+<text x="64.0" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2019</text>
+<text x="222.4" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2020</text>
+<text x="380.8" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2021</text>
+<text x="539.2" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2022</text>
+<text x="697.6" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2023</text>
+<text x="856.0" y="352.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2024</text>
+<line x1="64" y1="334" x2="856" y2="334" stroke="#6b7280" stroke-width="1"/>
+<polyline points="64.0,264.5 222.4,257.2 380.8,257.7 539.2,232.5 697.6,219.1 856.0,239.8" fill="none" stroke="#2f5d8a" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.0,321.6 222.4,317.4 380.8,321.6 539.2,308.7 697.6,303.0 856.0,314.8" fill="none" stroke="#c4622d" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="64.0,159.7 222.4,164.3 380.8,168.9 539.2,137.3 697.6,115.7 856.0,139.2" fill="none" stroke="#3d7a5d" stroke-width="1.9" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="64" y="360" width="10" height="10" rx="2" fill="#2f5d8a"/>
+<text x="79.0" y="369.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">MRDN</text>
+<rect x="111.6" y="360" width="10" height="10" rx="2" fill="#c4622d"/>
+<text x="126.6" y="369.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">CALD</text>
+<rect x="159.2" y="360" width="10" height="10" rx="2" fill="#3d7a5d"/>
+<text x="174.2" y="369.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">VSSL</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+<rect width="880" height="360" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" font-weight="600" fill="#1f2937" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">In-sample weights by construction rule</text>
+<text x="64" y="45" font-size="11.5" fill="#6b7280" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">The optimisers that use expected returns concentrate; the ones that do not, diversify.</text>
+<line x1="64" y1="314.0" x2="856" y2="314.0" stroke="#e5e7eb"/>
+<text x="56.0" y="317.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">0%</text>
+<line x1="64" y1="254.0" x2="856" y2="254.0" stroke="#e5e7eb"/>
+<text x="56.0" y="257.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">25%</text>
+<line x1="64" y1="194.0" x2="856" y2="194.0" stroke="#e5e7eb"/>
+<text x="56.0" y="197.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">50%</text>
+<line x1="64" y1="134.0" x2="856" y2="134.0" stroke="#e5e7eb"/>
+<text x="56.0" y="137.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">75%</text>
+<line x1="64" y1="74.0" x2="856" y2="74.0" stroke="#e5e7eb"/>
+<text x="56.0" y="77.5" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">100%</text>
+<text x="64.0" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">1/N</text>
+<text x="222.4" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Inv vol</text>
+<text x="380.8" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Risk par</text>
+<text x="539.2" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Min var</text>
+<text x="697.6" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">MaxSh-sample</text>
+<text x="856.0" y="332.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">MaxSh-shrunk</text>
+<polygon points="64.0,279.7 222.4,288.1 380.8,296.6 539.2,314.0 697.6,314.0 856.0,314.0 856.0,314.0 697.6,314.0 539.2,314.0 380.8,314.0 222.4,314.0 64.0,314.0" fill="#2f5d8a" opacity="0.88"/>
+<polygon points="64.0,245.4 222.4,266.7 380.8,281.8 539.2,314.0 697.6,314.0 856.0,314.0 856.0,314.0 697.6,314.0 539.2,314.0 380.8,296.6 222.4,288.1 64.0,279.7" fill="#c4622d" opacity="0.88"/>
+<polygon points="64.0,211.1 222.4,237.7 380.8,261.8 539.2,289.4 697.6,314.0 856.0,314.0 856.0,314.0 697.6,314.0 539.2,314.0 380.8,281.8 222.4,266.7 64.0,245.4" fill="#3d7a5d" opacity="0.88"/>
+<polygon points="64.0,176.9 222.4,214.1 380.8,244.4 539.2,288.6 697.6,165.1 856.0,165.0 856.0,314.0 697.6,314.0 539.2,289.4 380.8,261.8 222.4,237.7 64.0,211.1" fill="#8a4f7d" opacity="0.88"/>
+<polygon points="64.0,142.6 222.4,136.7 380.8,143.9 539.2,108.6 697.6,164.7 856.0,165.0 856.0,165.0 697.6,165.1 539.2,288.6 380.8,244.4 222.4,214.1 64.0,176.9" fill="#b08a2e" opacity="0.88"/>
+<polygon points="64.0,108.3 222.4,107.5 380.8,125.3 539.2,108.6 697.6,74.0 856.0,74.0 856.0,165.0 697.6,164.7 539.2,108.6 380.8,143.9 222.4,136.7 64.0,142.6" fill="#6b7280" opacity="0.88"/>
+<polygon points="64.0,74.0 222.4,74.0 380.8,74.0 539.2,74.0 697.6,74.0 856.0,74.0 856.0,74.0 697.6,74.0 539.2,108.6 380.8,125.3 222.4,107.5 64.0,108.3" fill="#7a3b3b" opacity="0.88"/>
+<rect x="64" y="340" width="10" height="10" rx="2" fill="#2f5d8a"/>
+<text x="79.0" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">LCAP</text>
+<rect x="111.6" y="340" width="10" height="10" rx="2" fill="#c4622d"/>
+<text x="126.6" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">SCAP</text>
+<rect x="159.2" y="340" width="10" height="10" rx="2" fill="#3d7a5d"/>
+<text x="174.2" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">INTL</text>
+<rect x="206.79999999999998" y="340" width="10" height="10" rx="2" fill="#8a4f7d"/>
+<text x="221.8" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">EMKT</text>
+<rect x="254.39999999999998" y="340" width="10" height="10" rx="2" fill="#b08a2e"/>
+<text x="269.4" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">BNDX</text>
+<rect x="302.0" y="340" width="10" height="10" rx="2" fill="#6b7280"/>
+<text x="317.0" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">REIT</text>
+<rect x="349.6" y="340" width="10" height="10" rx="2" fill="#7a3b3b"/>
+<text x="364.6" y="349.0" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">GOLD</text>
+</svg>

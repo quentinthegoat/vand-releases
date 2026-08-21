@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quentin Van Dorme</title>
+<meta name="description" content="Quantitative finance projects: valuation, statement analysis, portfolio risk and optimisation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:wght@300;400;600&display=swap">
+<style>
+/* ------------------------------------------------------------------ *
+ * Palette: ledger green on cool paper. Neutrals carry a slight green
+ * bias so they read as chosen rather than inherited. Red is reserved
+ * for negative figures only — it is semantic, not an accent.
+ * ------------------------------------------------------------------ */
+:root {
+  --ground:  #f6f8f6;
+  --surface: #ffffff;
+  --ink:     #17201b;
+  --muted:   #5f6b61;
+  --faint:   #869082;
+  --rule:    #dde3dd;
+  --accent:  #2c6a4d;
+  --accent-wash: #e8f1eb;
+  --negative:#96382f;
+  --flag:    #8a6d1f;
+  --flag-wash:#f6efd9;
+  --shadow:  0 1px 2px rgba(23, 32, 27, .05), 0 8px 24px -18px rgba(23, 32, 27, .35);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:  #11150f;
+    --surface: #181d19;
+    --ink:     #e7ebe4;
+    --muted:   #9aa697;
+    --faint:   #77836f;
+    --rule:    #2a322b;
+    --accent:  #74b08d;
+    --accent-wash: #1c2a22;
+    --negative:#d3897e;
+    --flag:    #d3b45f;
+    --flag-wash:#2a2617;
+    --shadow:  0 1px 2px rgba(0,0,0,.4), 0 10px 28px -20px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"] {
+  --ground:  #11150f;
+  --surface: #181d19;
+  --ink:     #e7ebe4;
+  --muted:   #9aa697;
+  --faint:   #77836f;
+  --rule:    #2a322b;
+  --accent:  #74b08d;
+  --accent-wash: #1c2a22;
+  --negative:#d3897e;
+  --flag:    #d3b45f;
+  --flag-wash:#2a2617;
+  --shadow:  0 1px 2px rgba(0,0,0,.4), 0 10px 28px -20px rgba(0,0,0,.9);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16.5px;
+  line-height: 1.62;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: clamp(2.5rem, 6vw, 5.5rem) clamp(1.15rem, 4vw, 3rem) 5rem;
+}
+
+/* Statement layout: a narrow reference rail beside the content column,
+   the way a line item sits beside its note reference. */
+section.block {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  gap: 0 2.75rem;
+  padding-block: clamp(2.25rem, 5vw, 3.5rem);
+  border-top: 1px solid var(--rule);
+}
+@media (max-width: 760px) {
+  section.block { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .rail { margin-bottom: 1.25rem; }
+}
+
+.rail {
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .705rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--faint);
+  padding-top: .5rem;
+}
+
+.col { max-width: 66ch; }
+
+/* ---------------- hero ---------------- */
+header.hero { padding-bottom: clamp(2.5rem, 5vw, 3.5rem); }
+
+.name {
+  font-family: Spectral, Georgia, "Times New Roman", serif;
+  font-weight: 300;
+  font-size: clamp(2.6rem, 7.5vw, 4.6rem);
+  line-height: 1.02;
+  letter-spacing: -.018em;
+  margin: 0 0 1.4rem;
+  text-wrap: balance;
+}
+.name em { font-style: normal; color: var(--accent); }
+
+.standfirst {
+  font-size: clamp(1.06rem, 2.3vw, 1.2rem);
+  color: var(--muted);
+  max-width: 54ch;
+  margin: 0 0 1.6rem;
+}
+.standfirst strong { color: var(--ink); font-weight: 500; }
+
+.meta {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: .76rem;
+  letter-spacing: .06em;
+  color: var(--faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem 1.4rem;
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+}
+.meta a { color: var(--muted); }
+
+h2 {
+  font-family: Spectral, Georgia, serif;
+  font-weight: 600;
+  font-size: 1.45rem;
+  letter-spacing: -.01em;
+  margin: 0 0 1.1rem;
+  text-wrap: balance;
+}
+h3 {
+  font-family: Spectral, Georgia, serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0 0 .3rem;
+  letter-spacing: -.005em;
+}
+p { margin: 0 0 1rem; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+/* ---------------- project line items ---------------- */
+.work { display: flex; flex-direction: column; gap: 1.15rem; }
+
+article.item {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 1.5rem 1.6rem 1.35rem;
+  box-shadow: var(--shadow);
+  transition: border-color .18s ease, transform .18s ease;
+}
+article.item:hover { border-color: var(--accent); transform: translateY(-1px); }
+
+.item-head {
+  display: flex;
+  align-items: baseline;
+  gap: .8rem;
+  flex-wrap: wrap;
+  margin-bottom: .55rem;
+}
+.tag {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: .68rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  color: var(--accent);
+  background: var(--accent-wash);
+  border-radius: 2px;
+  padding: .2rem .45rem;
+  white-space: nowrap;
+}
+.question { color: var(--muted); font-size: .965rem; margin: 0 0 1.05rem; }
+
+/* The signature element: each project leads with its headline number,
+   set as a figure in a results table would be. */
+.finding {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0 1.1rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.05rem;
+}
+@media (max-width: 560px) {
+  .finding { grid-template-columns: minmax(0, 1fr); gap: .4rem 0; }
+}
+.figure {
+  font-family: Spectral, Georgia, serif;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: clamp(1.9rem, 5vw, 2.5rem);
+  line-height: 1;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
+.figure.up   { color: var(--accent); }
+.figure.down { color: var(--negative); }
+.figure.flat { color: var(--ink); }
+.figure small { font-size: .45em; font-weight: 400; color: var(--muted); display: block; margin-top: .38rem; letter-spacing: .04em; font-family: "IBM Plex Mono", monospace; }
+.finding p { margin: 0; font-size: .95rem; }
+
+.stack { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: .7rem; color: var(--faint); letter-spacing: .05em; margin-top: 1rem; }
+
+/* ---------------- principles ---------------- */
+.principles { display: flex; flex-direction: column; gap: 1.5rem; }
+.principle p { margin: 0; color: var(--muted); font-size: .96rem; }
+
+.note {
+  border-left: 2px solid var(--accent);
+  padding: .1rem 0 .1rem 1.15rem;
+  color: var(--muted);
+  font-size: .93rem;
+}
+
+/* Placeholders the owner must replace before this goes public. They are
+   deliberately loud: a site that ships with an invisible TODO is worse
+   than one that ships with an obvious one. */
+.todo {
+  display: inline-block;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: .78rem;
+  color: var(--flag);
+  background: var(--flag-wash);
+  border: 1px dashed var(--flag);
+  border-radius: 2px;
+  padding: .1rem .4rem;
+}
+
+footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 1rem;
+  padding-top: 1.6rem;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: .72rem;
+  letter-spacing: .05em;
+  color: var(--faint);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="hero">
+    <h1 class="name">Quentin<br>Van&nbsp;Dorme</h1>
+    <p class="standfirst">
+      Finance and quantitative analysis. I build models that <strong>reproduce</strong> —
+      every project below runs with one command, on a clean machine, and regenerates
+      every number in its write-up.
+    </p>
+    <p class="standfirst">
+      <span class="todo">TODO — one line: what you study, where, and what you are looking for.</span>
+    </p>
+    <div class="meta">
+      <span><span class="todo">TODO — email</span></span>
+      <span><span class="todo">TODO — GitHub</span></span>
+      <span><span class="todo">TODO — LinkedIn</span></span>
+    </div>
+  </header>
+
+  <section class="block">
+    <div class="rail">Selected work</div>
+    <div class="col">
+      <h2>Five projects, each answering one question</h2>
+      <p class="note">
+        Each links to a repository with its methodology, code, results, and an honest
+        limitations section. All are standard-library Python — no numpy, no pandas — so
+        the mathematics is on the page rather than behind a library call.
+      </p>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="rail">Valuation</div>
+    <div class="col work">
+
+      <article class="item">
+        <div class="item-head">
+          <span class="tag">DCF</span>
+          <h3>Equity Valuation — Discounted Cash Flow</h3>
+        </div>
+        <p class="question">
+          What is a company worth, and what does its market price already assume?
+        </p>
+        <div class="finding">
+          <div class="figure up">0.45%<small>implied growth</small></div>
+          <p>
+            The DCF values the equity at $32 against a $27.60 price. But the result that
+            decides the recommendation is the reverse DCF: the market is pricing 0.45%
+            annual revenue growth into a business that grew 4.7% last year.
+          </p>
+        </div>
+        <p class="stack">FCFF · bottom-up WACC · two terminal methods · 20,000-trial Monte Carlo · reverse DCF · comps</p>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <span class="tag">FSA</span>
+          <h3>Financial Statement Analysis</h3>
+        </div>
+        <p class="question">
+          Three companies, one industry, one cost shock. Which is actually a good business?
+        </p>
+        <div class="finding">
+          <div class="figure down">&minus;$23m<small>real deleveraging</small></div>
+          <p>
+            One company reported repaying $250m of term debt over two years. Total drawn
+            debt fell $23m — the revolver absorbed the difference, and grew in every year
+            that dividends plus buybacks exceeded free cash flow.
+          </p>
+        </div>
+        <p class="stack">Six-year ratio suite · five-step DuPont · common-size · accrual ratio · Altman Z</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="rail">Portfolio</div>
+    <div class="col work">
+
+      <article class="item">
+        <div class="item-head">
+          <span class="tag">RISK</span>
+          <h3>Portfolio Performance &amp; Risk Analytics</h3>
+        </div>
+        <p class="question">
+          A seven-sleeve diversified portfolio beat the 60/40 by 32bp a year. Was it worth it?
+        </p>
+        <div class="finding">
+          <div class="figure flat">25% &rarr; 2%<small>capital &rarr; risk</small></div>
+          <p>
+            A quarter of the capital sits in bonds and produces 2% of the portfolio's risk;
+            65% in equities produces 90% of it. It is not a balanced portfolio — it is an
+            equity portfolio with a bond sleeve attached.
+          </p>
+        </div>
+        <p class="stack">Drift-and-rebalance backtest · Euler risk decomposition · exact attribution · capture ratios</p>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <span class="tag">OPT</span>
+          <h3>Portfolio Optimizer</h3>
+        </div>
+        <p class="question">
+          Does mean-variance optimisation beat equal weight out of sample?
+        </p>
+        <div class="finding">
+          <div class="figure down">0.00<small>Sharpe, max-Sharpe rule</small></div>
+          <p>
+            Equal weight won. The Sharpe-maximising optimiser delivered a Sharpe of zero
+            with 13&times; the turnover — and the look-ahead portfolio, the one that knew
+            the future, beat 1/N by two basis points. There was barely a prize to win.
+          </p>
+        </div>
+        <p class="stack">Simplex projection · Lipschitz-stepped projected gradient · Ledoit–Wolf shrinkage · risk parity · walk-forward</p>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <span class="tag">ETF</span>
+          <h3>ETF Cost &amp; Tracking Study</h3>
+        </div>
+        <p class="question">
+          Three funds, one index, expense ratios of 0.03%, 0.09% and 0.35%.
+        </p>
+        <div class="finding">
+          <div class="figure down">&minus;$64,886<small>30-year fee gap</small></div>
+          <p>
+            What 0.32 percentage points costs on a $100,000 investment: 8.6% of the final
+            balance, due whether the fund performs or not. The study also shows why two of
+            the three funds cannot legitimately be judged against this index at all.
+          </p>
+        </div>
+        <p class="stack">Tracking difference vs tracking error · unexplained residual · lifetime cost · breakeven · overlap</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="rail">Method</div>
+    <div class="col principles">
+      <div class="principle">
+        <h3>State the question before the answer</h3>
+        <p>
+          Every write-up opens with what it is trying to find out and closes with what it
+          concluded and what would prove it wrong. A model without a falsification test is
+          an opinion with arithmetic attached.
+        </p>
+      </div>
+      <div class="principle">
+        <h3>Report the results that do not help</h3>
+        <p>
+          The covariance shrinkage that did nothing. The diversification that did not pay.
+          The peer set that collapses to a single company. A portfolio in which nothing
+          ever fails is a portfolio that is not measuring anything.
+        </p>
+      </div>
+      <div class="principle">
+        <h3>Say where the data came from</h3>
+        <p>
+          The sample data in these projects is generated rather than real, it says so on
+          every front page, and each project documents exactly how to point the same
+          pipeline at real filings or real prices. Conclusions about method transfer;
+          conclusions about markets do not.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="rail">About</div>
+    <div class="col">
+      <h2>Background</h2>
+      <p><span class="todo">TODO — two or three sentences: what you study, what you have done, what you want to do next. Do not pad it; three honest sentences beat a page of adjectives.</span></p>
+      <h2 style="margin-top:2rem">Currently learning</h2>
+      <p><span class="todo">TODO — replace with what is actually true.</span></p>
+    </div>
+  </section>
+
+  <footer>
+    Built with standard-library Python · figures generated as SVG by a purpose-written charting module ·
+    <span class="todo">TODO — year and contact line</span>
+  </footer>
+
+</div>
+</body>
+</html>
