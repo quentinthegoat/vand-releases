@@ -1,0 +1,97 @@
+{
+  "company": "Ryanair Holdings plc",
+  "listing": "Euronext Dublin (RYA) / Nasdaq ADR (RYAAY)",
+  "currency": "EUR millions unless stated",
+  "fiscal_year_end": "31 March",
+  "source": {
+    "document": "FY26 Ryanair Results - Condensed Consolidated Preliminary Financial Statements (unaudited)",
+    "published": "2026-05-18",
+    "url": "https://investor.ryanair.com/wp-content/uploads/2026/05/FY26-Ryanair-Results.pdf",
+    "note": "Figures transcribed from the primary document. Preliminary and unaudited, per the issuer's own labelling."
+  },
+  "income_statement": {
+    "FY26": {
+      "scheduled_revenue": 10556.0, "ancillary_revenue": 4988.3, "total_revenue": 15544.3,
+      "fuel_and_oil": 5418.6, "staff_costs": 1856.5, "airport_and_handling": 1762.3,
+      "depreciation": 1373.4, "route_charges": 1318.2, "marketing_distribution_other": 803.5,
+      "maintenance_materials_repairs": 552.6,
+      "opex_before_exceptional": 13085.1, "exceptional_charge": 85.0, "total_opex": 13170.1,
+      "operating_profit": 2374.2, "operating_profit_pre_exceptional": 2459.2,
+      "net_finance_and_other_income": 80.0, "foreign_exchange": -30.9,
+      "profit_before_tax": 2423.3, "tax_expense": -249.6,
+      "profit_after_tax": 2173.7, "profit_after_tax_pre_exceptional": 2258.7,
+      "eps_basic": 2.0594, "eps_diluted": 2.0422,
+      "shares_basic_m": 1055.5, "shares_diluted_m": 1064.4
+    },
+    "FY25": {
+      "scheduled_revenue": 9229.8, "ancillary_revenue": 4718.7, "total_revenue": 13948.5,
+      "fuel_and_oil": 5220.2, "staff_costs": 1751.1, "airport_and_handling": 1683.5,
+      "depreciation": 1214.4, "route_charges": 1166.7, "marketing_distribution_other": 878.4,
+      "maintenance_materials_repairs": 476.2,
+      "opex_before_exceptional": 12390.5, "exceptional_charge": 0.0, "total_opex": 12390.5,
+      "operating_profit": 1558.0, "operating_profit_pre_exceptional": 1558.0,
+      "net_finance_and_other_income": 224.0, "foreign_exchange": 2.4,
+      "profit_before_tax": 1784.4, "tax_expense": -172.8,
+      "profit_after_tax": 1611.6, "profit_after_tax_pre_exceptional": 1611.6,
+      "eps_basic": 1.4631, "eps_diluted": 1.4549,
+      "shares_basic_m": 1101.5, "shares_diluted_m": 1107.7
+    }
+  },
+  "balance_sheet": {
+    "FY26": {
+      "property_plant_equipment": 11373.1, "right_of_use_asset": 148.1, "intangibles": 146.4,
+      "total_non_current_assets": 12002.8, "cash_and_equivalents": 2733.4,
+      "financial_assets_cash_over_3m": 812.4, "restricted_cash": 31.2,
+      "total_current_assets": 7744.9, "total_assets": 19747.7,
+      "current_maturities_of_debt": 1198.8, "non_current_maturities_of_debt": 147.8,
+      "current_lease_liability": 39.8, "non_current_lease_liability": 105.1,
+      "total_current_liabilities": 8572.8, "total_non_current_liabilities": 1073.5,
+      "shareholders_equity": 10101.4
+    },
+    "FY25": {
+      "property_plant_equipment": 10923.7, "right_of_use_asset": 148.5, "intangibles": 146.4,
+      "total_non_current_assets": 11497.3, "cash_and_equivalents": 3863.3,
+      "financial_assets_cash_over_3m": 100.1, "restricted_cash": 23.1,
+      "total_current_assets": 6009.7, "total_assets": 17507.0,
+      "current_maturities_of_debt": 848.4, "non_current_maturities_of_debt": 1685.2,
+      "current_lease_liability": 37.7, "non_current_lease_liability": 111.4,
+      "total_current_liabilities": 8152.8, "total_non_current_liabilities": 2317.3,
+      "shareholders_equity": 7036.9
+    }
+  },
+  "cash_flow": {
+    "FY26": {
+      "cash_from_operations": 3694.9, "capital_expenditure": -1892.4,
+      "share_buyback": -536.5, "dividends_paid": -443.3, "repayment_of_borrowings": -1190.0,
+      "interest_income_received": 81.0, "interest_expense_paid": -51.0
+    },
+    "FY25": {
+      "cash_from_operations": 3415.7, "capital_expenditure": -1552.5,
+      "share_buyback": -1477.8, "dividends_paid": -437.7, "repayment_of_borrowings": -50.0,
+      "interest_income_received": 135.9, "interest_expense_paid": -69.7
+    }
+  },
+  "operating_stats": {
+    "FY26": {"passengers_m": 208.4, "load_factor": 0.94, "fleet": 647, "gamechangers": 210},
+    "FY25": {"passengers_m": 200.2, "load_factor": 0.94}
+  },
+  "hedging_and_liquidity": {
+    "fy27_hedge_pct": 0.80,
+    "fy27_hedge_price_usd_bbl": 67.0,
+    "hedge_expiry": "April 2027",
+    "spot_jet_fuel_usd_bbl_at_reporting": 150.0,
+    "spot_note": "Issuer states global jet-fuel spot prices have spiked to over $150/bbl following the closure of the Strait of Hormuz, and are expected to remain elevated for some months.",
+    "gross_cash": 3577.0,
+    "net_cash": 2085.5,
+    "credit_rating": "BBB+ (Fitch and S&P)",
+    "unencumbered_aircraft": 620,
+    "rcf_undrawn_approx": 1000.0
+  },
+  "market_data": {
+    "share_price_eur": 22.845,
+    "price_range_quoted_eur": [22.73, 22.96],
+    "price_date": "2026-09-02",
+    "price_source": "Euronext Dublin, quoted by the user; cross-checked against the Nasdaq ADR market capitalisation of approximately USD 29bn",
+    "exchange": "Euronext Dublin"
+  }
+}

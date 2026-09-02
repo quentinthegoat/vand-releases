@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="342" height="350" viewBox="0 0 342 350" role="img">
+<rect width="342" height="350" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" font-weight="600" fill="#1f2937" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Value per share (€): fuel price × fare pass-through</text>
+<text x="64" y="45" font-size="11.5" fill="#6b7280" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Rows top to bottom: Normalisation ($75), Elevated ($110), Spot persists ($150), Escalation ($200). Market price €22.84.</text>
+<text x="66.0" y="113.0" font-size="11" fill="#1f2937" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">0%</text>
+<text x="105.0" y="70.0" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">0%</text>
+<rect x="74" y="78" width="60" height="60" rx="3" fill="#7da391"/>
+<text x="104.0" y="113.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">14</text>
+<rect x="136" y="78" width="60" height="60" rx="3" fill="#5d8c76"/>
+<text x="166.0" y="113.0" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">18</text>
+<rect x="198" y="78" width="60" height="60" rx="3" fill="#447b61"/>
+<text x="228.0" y="113.0" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">21</text>
+<rect x="260" y="78" width="60" height="60" rx="3" fill="#2c6a4d"/>
+<text x="290.0" y="113.0" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">24</text>
+<text x="66.0" y="175.0" font-size="11" fill="#1f2937" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">40%</text>
+<text x="167.0" y="70.0" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">40%</text>
+<rect x="74" y="140" width="60" height="60" rx="3" fill="#fefcfc"/>
+<text x="104.0" y="175.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-4</text>
+<rect x="136" y="140" width="60" height="60" rx="3" fill="#e3ebe7"/>
+<text x="166.0" y="175.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">1</text>
+<rect x="198" y="140" width="60" height="60" rx="3" fill="#a3beb2"/>
+<text x="228.0" y="175.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">9</text>
+<rect x="260" y="140" width="60" height="60" rx="3" fill="#2c6a4d"/>
+<text x="290.0" y="175.0" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">24</text>
+<text x="66.0" y="237.0" font-size="11" fill="#1f2937" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">70%</text>
+<text x="229.0" y="70.0" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">70%</text>
+<rect x="74" y="202" width="60" height="60" rx="3" fill="#f9eeec"/>
+<text x="104.0" y="237.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-15</text>
+<rect x="136" y="202" width="60" height="60" rx="3" fill="#fdfafa"/>
+<text x="166.0" y="237.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-5</text>
+<rect x="198" y="202" width="60" height="60" rx="3" fill="#dfe8e4"/>
+<text x="228.0" y="237.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2</text>
+<rect x="260" y="202" width="60" height="60" rx="3" fill="#2c6a4d"/>
+<text x="290.0" y="237.0" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">24</text>
+<text x="66.0" y="299.0" font-size="11" fill="#1f2937" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">100%</text>
+<text x="291.0" y="70.0" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">100%</text>
+<rect x="74" y="264" width="60" height="60" rx="3" fill="#f4dcd8"/>
+<text x="104.0" y="299.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-28</text>
+<rect x="136" y="264" width="60" height="60" rx="3" fill="#faefee"/>
+<text x="166.0" y="299.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-13</text>
+<rect x="198" y="264" width="60" height="60" rx="3" fill="#fefefe"/>
+<text x="228.0" y="299.0" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-2</text>
+<rect x="260" y="264" width="60" height="60" rx="3" fill="#2c6a4d"/>
+<text x="290.0" y="299.0" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">24</text>
+</svg>

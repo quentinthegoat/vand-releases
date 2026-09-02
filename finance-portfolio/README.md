@@ -67,7 +67,23 @@ walk-forward test that never lets an estimator see data it would not have had.
 > look-ahead portfolio — the one that knew the future — beat 1/N by two basis points of
 > Sharpe, which reframes the whole exercise: there was barely a prize to win.
 
-### 5. [ETF Cost & Tracking Study](projects/etf-cost-and-tracking-study/)
+### 5. [Ryanair — What Fuel Price Is In The Share Price?](projects/ryanair-fuel-hedge-valuation/)
+
+**The one project here built on real data.** A valuation of Ryanair Holdings plc from its
+FY26 results release, structured around the only two variables that matter for this equity:
+the jet-fuel price once the hedge rolls off in April 2027, and how much of a fuel increase is
+recoverable in fares.
+
+> *Headline finding:* Ryanair trades at 11× earnings after growing profit 40% and going
+> debt-free — and that cheapness is not an opportunity. At €22.85 the market is paying **96%
+> of the value you get only if Ryanair passes on every euro of any fuel increase**. Solved
+> backwards, the price implies long-run fuel within 3% of its FY26 level. Spot at the
+> reporting date was **124% above the hedge price**.
+
+Includes a transcription test suite that proves the hand-copied statements foot, and flags a
+discrepancy in the issuer's own release ($668/tonne vs $67/bbl do not reconcile).
+
+### 6. [ETF Cost & Tracking Study](projects/etf-cost-and-tracking-study/)
 
 **Three funds, one index, expense ratios of 0.03%, 0.09% and 0.35%.**
 
@@ -102,8 +118,9 @@ reported and explained rather than dropped.
 
 ## About the data
 
-**The data in these projects is generated, not real, and every project says so on its front
-page.** Two things drove that decision:
+**Four of the six projects use generated data, one uses real filings, and every project says
+which on its front page.** The Ryanair valuation is built from a real results release; the
+rest are generated. Two things drove that decision:
 
 1. **Accuracy.** Reproducing a real issuer's filings from memory produces numbers that look
    authoritative and may be wrong. A wrong number presented as real is worse than an
@@ -157,6 +174,7 @@ projects/
   financial-statement-analysis/         ratios, DuPont, earnings quality, Altman Z
   portfolio-performance-analytics/      backtest, attribution, Euler risk decomposition
   portfolio-optimizer/                  frontier, shrinkage, risk parity, walk-forward
+  ryanair-fuel-hedge-valuation/         REAL DATA: fuel-driven DCF, reverse DCF, breakeven
   etf-cost-and-tracking-study/          tracking difference vs error, fee drag, overlap
 lib/finlib.py                           shared toolkit (copied into each project's src/)
 data-lab/                               the data generators, with their validation rules

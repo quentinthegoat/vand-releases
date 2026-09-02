@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="360" viewBox="0 0 880 360" role="img">
+<rect width="880" height="360" fill="#ffffff"/>
+<text x="64" y="26" font-size="15" font-weight="600" fill="#1f2937" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Operating profit under the base case (fuel $110, θ = 40%)</text>
+<text x="64" y="45" font-size="11.5" fill="#6b7280" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">€m. FY27 is protected by the hedge; the damage lands in FY28.</text>
+<line x1="64" y1="271.4" x2="856" y2="271.4" stroke="#e5e7eb"/>
+<text x="56.0" y="274.9" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">0</text>
+<line x1="64" y1="201.3" x2="856" y2="201.3" stroke="#e5e7eb"/>
+<text x="56.0" y="204.8" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">1,000</text>
+<line x1="64" y1="131.2" x2="856" y2="131.2" stroke="#e5e7eb"/>
+<text x="56.0" y="134.7" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2,000</text>
+<line x1="64" y1="61.2" x2="856" y2="61.2" stroke="#e5e7eb"/>
+<text x="56.0" y="64.7" font-size="10.5" fill="#6b7280" text-anchor="end" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">3,000</text>
+<rect x="89.1" y="99.1" width="81.8" height="172.4" rx="2" fill="#3d7a5d"/>
+<text x="130.0" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">FY26a</text>
+<text x="130.0" y="93.1" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">2,459</text>
+<rect x="221.1" y="160.2" width="81.8" height="111.2" rx="2" fill="#3d7a5d"/>
+<text x="262.0" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">FY27</text>
+<text x="262.0" y="154.2" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">1,587</text>
+<rect x="353.1" y="258.1" width="81.8" height="13.3" rx="2" fill="#3d7a5d"/>
+<text x="394.0" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">FY28</text>
+<text x="394.0" y="252.1" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">190</text>
+<rect x="485.1" y="264.6" width="81.8" height="6.8" rx="2" fill="#3d7a5d"/>
+<text x="526.0" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">FY29</text>
+<text x="526.0" y="258.6" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">97</text>
+<rect x="617.1" y="270.9" width="81.8" height="0.6" rx="2" fill="#3d7a5d"/>
+<text x="658.0" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">FY30</text>
+<text x="658.0" y="264.9" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">8</text>
+<rect x="749.1" y="271.4" width="81.8" height="6.7" rx="2" fill="#a83232"/>
+<text x="790.0" y="314.0" font-size="10.5" fill="#6b7280" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">FY31</text>
+<text x="790.0" y="292.1" font-size="10" fill="#1f2937" text-anchor="middle" font-weight="normal" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">-95</text>
+<line x1="64" y1="271.4" x2="856" y2="271.4" stroke="#6b7280"/>
+</svg>
